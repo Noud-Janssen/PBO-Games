@@ -6,14 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presentatie</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x-icon" href="assets/icon.ico">
 </head>
 <body>
-    <main class="center">
-        <h1 class="center">PBO Games</h1>
+    <main class="col" id="p1">
+        <div id="logo"></div>
     </main>
-    <div class="row">
+    <main class="col" id="p4">
+        <h2>MBO wordt PBO</h2>
+        <h3>Praktijk-Beroeps-Opleiding</h3>
+        <h2>HBO wordt TBO</h2>
+        <h3>Theorie-Beroeps-Opleiding</h3>
+    </main>
+    <main class="col" id="p2">
+        <h2>Tv serie</h2>
+        <div class="row">
+            <div id="npo3"></div>
+            <a href="https://www.youtube.com/channel/UCt-R2tMSWMb0JIJak9nzmgA" target="_blank" id="yt"></a>
+        </div>
+        <h3>Spelregels: Handleiding</h3>
+    </main>
+    <main class="col" id="p5">
+        <h2>Financieel</h2>
+        <div class="row">
+            <h4>Subsidie overheid</h4>
+            <h4>Advertenties door scholen</h4>
+        </div>
+        <h2>Marketing</h2>
+        <div class="row">
+            <h4>Flyers</h4>
+            <h4>posters</h4>
+            <h4>Social media</h4>
+        </div>
+    </main>
+    <main class="col" id="p3">
+        <table>
+            <tr>
+                <th>Week</th>
+                <th>opleiding</th>
+                <th>Opdracht 1</th>
+                <th>Opdracht 2</th>
+                <th>Opdracht 3</th>
+            </tr>
+            <tr>
+                <td class="cent">1</td>
+                <td>SD en ET</td>
+                <td>Elektrisch lampen doolhof oplossen</td>
+                <td>RC car maken</td>
+                <td>Lego mindstorm robot maken en coderen</td>
+            </tr>
+            <tr>
+                <td class="cent">2</td>
+                <td>Houtbewerking</td>
+                <td>stoel maken</td>
+                <td>tafel maken</td>
+                <td>Stambeeld van hout</td>
+            </tr>
+            <tr>
+                <td class="cent">3</td>
+                <td>Bakkers Opleiding</td>
+                <td>Taart maken met school thema</td>
+                <td>Speculaas koek gebouw maken</td>
+                <td>Vrije keuze taart</td>
+            </tr>
+        </table>
+    </main>
+    <div class="bot">
         <button class="but-a" onclick="prevSlid()">Previous <div class="hand"></div></button>
         <button class="but-a" onclick="nextSlide()">Next <div class="hand"></div></button>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
